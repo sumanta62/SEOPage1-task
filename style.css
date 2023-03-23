@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* background-color: aliceblue; */
+}
+p, h1, h2, h3, h4, h5, h6{
+    margin: 0;
+    padding: 0;    
+}
+span{
+    font-size: 14px;
+    font-weight: 500;
+    color: rgb(99, 97, 97);
+}
+h6{
+    font-size: 14px;
+}
+/* ======================= scrollbar ============================ */
+.bannerSection .incompliteList::-webkit-scrollbar{
+    width: 8px;
+}
+.bannerSection .incompliteList::-webkit-scrollbar-track{
+    background-color: rgb(187, 182, 182);
+}
+.bannerSection .incompliteList::-webkit-scrollbar-thumb{
+    background-color: rgb(71, 60, 170);
+    height: 30%;
+    border-radius: 20px;
+}
+
+/* ===================== homePageSection Start  ===================== */
+.homePageSection{
+    width: 100%;
+    background-color: aliceblue;
+    padding: 30px 20px;
+    padding-bottom: 20px;
+    
+}
+.homePageSection .homepageBanner{
+    width: 100%;
+    display: flex;
+    overflow-y: scroll;
+}
+/* ===================== bannerSection Start  ===================== */
+.bannerSection{
+    height: 88vh;
+    background-color: white;
+    padding: 20px;
+    padding-bottom: 0px;
+    display: flex;    
+    gap: 10px;
+}
+.bannerSection .incompliteList{
+    width: 380px;
+    padding: 7px;
+    background-color: aliceblue;
+    overflow-y: scroll;
+    
+}
+.bannerSection .incompliteList .IncompleteLogo{
+    width: 20px;
+    height: 20px;
+    border-bottom-left-radius: 50%;
+    border-top-left-radius: 50%;
+    background-color: rgb(224, 37, 37);
+}
+.bannerSection .incompliteList .cardSection{
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px; 
+}
+.bannerSection .incompliteList img{
+width: 28px;
+height: 28px;
+border-radius: 50%;
+} 
+.cardBottom i{
+  font-weight: 500;
+}
